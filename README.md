@@ -12,8 +12,8 @@ The figure below shows the user list in firebase console as a result of the test
 <p> <b> Role4: Assisted in Validating "Login" and "Sign Up". </b> <br>
 <img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/SignUp%20validation.PNG"> <br>
 Figure 1 shows the validation process for entering an invalid email type and not meeting the min length for password. <br>
-Figure 2 shows the error message on the event if the user tries to sign up with an email id that’s already taken.
+Figure 2 shows the error message on the event if the user tries to sign up with an email id that’s already taken. <br>
 <img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/Login%20Validation.PNG"> <br>
-
+Login button is initially disabled as shown in Figure 3 until email and password are entered. Email should be of type email id. Incorrect email and password are handled as shown in Figure 2 and Figure 3. <br>
 
 
