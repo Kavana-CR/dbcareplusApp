@@ -7,5 +7,5 @@ There are four main features - “Food & Beverages”, “Log Blood Sugar”, �
 <p> Role2: Assisted in developing the front end of the application using ionic framework. <br>
 http://dbcarered.s3-website-us-west-2.amazonaws.com/#/login </p> <br> 
 <p> Role3: Assisted in data modelling for Firebase (Real time key value based data store). <br>
-The figure below shows the user lists in firebase console as a result of the tests done for Sign Up and Login</p> <br>
-<img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/firebase-userslist.png>
+The figure below shows the user lists in firebase console as a result of the tests done for Sign Up and Login <br>
+<img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/firebase-userslist.png> </p>
