@@ -25,5 +25,13 @@ Figure 5 shows a toast message to the user, alerting that the record has been de
 <img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/UpdateandDelete.PNG"> <br>
 The figure below shows the record of Blood Sugar Entry in Firebase <br>
 <img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/BloodLog-Firebase.png"> </p> <br>
-
-
+<p> <b> Role 6: Acted as a Scrum Master and used Jira for managing Sprints. </b> <br>
+Sprint 1 started on 21st May, 2016 with 2 issues: DBCAR-27 (Change Register Screen) and DBCAR-29 (Make Tour Wizard views). <br>
+The figure below shows the Burndown chart and Issues of Sprint1 and End of Sprint <br>
+<img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/Jiraburndown-sprint1.PNG"> <br>
+Sprint 2 started on on 28th May, 2016. On 4th June, 2016, 2 Issues were added: DBCAR-43(Blood sugar CRUD) and DBCAR-49 (Reminders- CRUD)
+The figure below shows the Burndown chart and Issues of Sprint2 and End of Sprint <br>
+<img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/Jira-SPrint2.PNG"> <br>
+Sprint 3, the final Sprint started on 5th June with 3 issues: Sprint start: DBCAR-60 (Food & Beverage), DBCAR-67 (Validation / Login Auth Validation) and DBCAR-68 (Side Menu / Settings / Demos). <br>
+The figure below shows the Burndown chart and Issues of Sprint3 and End of Sprint <br>
+<img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/Jira-Sprint3.PNG"> </p> <br> 
