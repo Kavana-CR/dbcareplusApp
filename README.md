@@ -15,7 +15,7 @@ Figure 2 shows the error message on the event if the user tries to sign up with 
 <img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/SignUp%20validation.PNG"> <br>
 Login button is initially disabled as shown in Figure 3 until email and password are entered. Email should be of type email id. Incorrect email and password are handled as shown in Figure 4 and Figure 5. <br>
 <img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/Login%20Validation.PNG"> <br> </p>
-<p> <b> Role 5: Assisted in performing CRUD operations on "Log Blood Sugar" feature <b> <br>
+<p> <b> Role 5: Assisted in performing CRUD operations on "Log Blood Sugar" feature </b> <br>
 In Figure 1, the toast message at the bottom appears on loading. All previous entries from Firebase are loaded. <br>
 Figure 2 shows the New Blood Sugar modal for a new entry. <br>
 Figure 3 shows the newly added blood sugar entry along with the toast message at the bottom. Blood Sugar Entry is pushed to Firebase. <br>
