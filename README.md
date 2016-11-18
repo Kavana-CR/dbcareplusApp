@@ -36,6 +36,20 @@ Sprint 3, the final Sprint started on 5th June with 3 issues: Sprint start: DBCA
 The figure below shows the Burndown chart and Issues of Sprint3 and End of Sprint <br>
 <img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/Jira-Sprint3.PNG"> </p> <br> 
 
-<p> To view the complete working of the app, do the following: </p>
+<p> To view the complete working of the app, follow this: <br>
+<b>Requirements:</b> <br>
+Windows PC or Mac <br>
+Node.js (Download & install Node.js from Download Node.JS ) <br>
+Cordova (Install Cordova using npm -> npm install cordova –g or just npm install cordova) <br>
+Ionic Framework (Install Ionic using npm -> npm install ionic –g or just npm install ionic) <br>
+Android Device running Android 4.0 and above <br>
+
+
+
+
+
+
+
+</p>
 
 
