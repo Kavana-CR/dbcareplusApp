@@ -22,6 +22,8 @@ Figure 3 shows the newly added blood sugar entry along with the toast message at
 <img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/LoadandAdd.PNG"> <br>
 Figure 4 shows the updated Blood Sugar Value which is updated in Firebase. <br>
 Figure 5 shows a toast message to the user, alerting that the record has been deleted. <br>
-<img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/UpdateandDelete.PNG"> </p> <br>
+<img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/UpdateandDelete.PNG"> <br>
+The figure below shows the record of Blood Sugar Entry in Firebase <br>
+<img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/BloodLog-Firebase.png"> </p> <br>
 
 
