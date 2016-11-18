@@ -35,3 +35,7 @@ The figure below shows the Burndown chart and Issues of Sprint2 and End of Sprin
 Sprint 3, the final Sprint started on 5th June with 3 issues: Sprint start: DBCAR-60 (Food & Beverage), DBCAR-67 (Validation / Login Auth Validation) and DBCAR-68 (Side Menu / Settings / Demos). <br>
 The figure below shows the Burndown chart and Issues of Sprint3 and End of Sprint <br>
 <img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/Jira-Sprint3.PNG"> </p> <br> 
+
+<p> To view the complete working of the app, do the following: </p>
+
+
