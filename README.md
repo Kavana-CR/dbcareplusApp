@@ -19,10 +19,10 @@ Login button is initially disabled as shown in Figure 3 until email and password
 In Figure 1, the toast message at the bottom appears on loading. All previous entries from Firebase are loaded. <br>
 Figure 2 shows the New Blood Sugar modal for a new entry. <br>
 Figure 3 shows the newly added blood sugar entry along with the toast message at the bottom. Blood Sugar Entry is pushed to Firebase. <br>
-<img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/LoadandAdd.PNG"> <br>
+<img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/LoadAdd.PNG"> <br>
 Figure 4 shows the updated Blood Sugar Value which is updated in Firebase. <br>
 Figure 5 shows a toast message to the user, alerting that the record has been deleted. <br>
-<img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/UpdateandDelete.PNG"> <br>
+<img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/UpdateDelete.PNG"> <br>
 The figure below shows the record of Blood Sugar Entry in Firebase <br>
 <img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/BloodLog-Firebase.png"> </p> <br>
 <p> <b> Role 6: Acted as a Scrum Master and used Jira for managing Sprints. </b> <br>
