@@ -43,18 +43,19 @@ Cordova (Install Cordova using npm -> npm install cordova –g or just npm insta
 Ionic Framework (Install Ionic using npm -> npm install ionic –g or just npm install ionic) <br>
 Android Device running Android 4.0 and above <br> </p>
 <p> <h3> How to run the App? </h3>
-Once the installation of Node.js, Cordova and Ionic Framework is done, create a new project in ionic by running the following command<br>
+Once the installation of Node.js, Cordova and Ionic Framework is done, create a new project in ionic by running the following command:<br>
 $>ionic start DBCare+ blank <br>
-Then, download and extract the Source Code file onto your system by clicking on the following link
+Then, download and extract the Source Code folder onto your system by clicking on the following link
 https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/Source%20Code.rar <br>
 Next, copy the "www" folder from "Source Code" folder and replace it with the existing "www" folder in ionic project folder i.e DBCare+.
-Also copy the "resources" folder from "Source Code" folder and paste it in the same project folder i.e DBCare+. <br> <br>
+Also copy the "resources" folder from "Source Code" folder and paste it in the same project folder i.e DBCare+. <br>
+Run the following command to serve it to serve the app onto the web browser: <br>
+$>DBCare+> ionic serve --lab or ionic serve -l <br> <br>
 <b>You will be limited to only those features which are compatible on the web browser.<br>
 (PLEASE NOTE : This Mobile Hybrid App will not run on the web browser with full functionality. The App must be installed on to a device to see its complete functionality) </b> </p> 
 <p> Start using the App by Signing up. Tap on "New Here, Sign Up? to create a new account or Tap on "F" or "G" icon to Sign Up using Facebook or Gmail respectively. <br>
 The functionalities of "Reminders" and "Progress Report" features on the home screen and the "Splash Screen" can only be seen on a device and not on the browser. <br>
-All the other features functionalities that can also be viewed on both browser and device are: "Food & Beverages", "Log BLood Sugar", on the Home page and in the Side Menu, the features, "See Demos", "Settings" and "Logout". <br>
-For any questions regarding app usage, navigate to Side Menu-> Settings-> FAQs. <br> <br>
+All the other features functionalities that can also be viewed on both browser and device are: "Food & Beverages", "Log BLood Sugar", on the Home page and in the Side Menu, the features, "See Demos", "Settings" and "Logout". For any questions regarding app usage, navigate to Side Menu-> Settings-> FAQs. <br> <br>
 <b> To install and run the App on android device: </b> <br>
 On your Android Phone you need to allow installation from unknown source. Transfer the APK file inside the APK-Android directory and install it from the phone or click on the following link to find the apk: <br>
 https://github.com/Kavana-CR/DBCarePlus-App-Development/tree/master/Apk%20-%20Android </p>
