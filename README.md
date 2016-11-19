@@ -1,7 +1,6 @@
 <h2> DBCarePlus (Application Development) </h2>
 <p> Group size: 5 <br><br>
-DBCare Plus is a health care management app that helps diabetics manage their condition better. 
-There are four main features - “Food and Beverages”, “Log Blood Sugar”, “Reminders” and “Progress Report”. </p> <br>
+DBCare Plus is a health care management app that helps diabetics manage their condition better. There are four main features - “Food and Beverages”, “Log Blood Sugar”, “Reminders” and “Progress Report”. </p> <br>
 <p> <b> Role 1: Assisted in coming up with the App Workflow. </b> <br>
 <img src="https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/AppFlow.PNG"> </p> <br>
 <p> <b> Role 2: Assisted in developing the front end of the application using ionic framework. </b> <br>
