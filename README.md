@@ -58,7 +58,7 @@ The functionalities of "Reminders" and "Progress Report" features on the home sc
 All the other features functionalities that can also be viewed on both browser and device are: "Food & Beverages", "Log BLood Sugar", on the Home page and in the Side Menu, the features, "See Demos", "Settings" and "Logout". For any questions regarding app usage, navigate to Side Menu-> Settings-> FAQs. <br> <br>
 <b> To install and run the App on android device: </b> <br>
 On your Android Phone you need to allow installation from unknown source. Transfer the APK file inside the APK-Android directory and install it from the phone or click on the following link to find the apk: <br>
-https://github.com/Kavana-CR/DBCarePlus-App-Development/tree/master/Apk%20-%20Android </p>
+https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/Apk%20-%20Android/DBcare%2B.apk</p>
 
 
 
