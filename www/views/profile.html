@@ -1,0 +1,44 @@
+<ion-view title="Profile" hide-back-button="false" ng-init="retrieveProfile()">
+<ion-nav-buttons side="right">
+      <button class="button button-clear icon ion-edit"  ng-click="editProfile(prof)">
+        </button>
+    </ion-nav-buttons>
+	<ion-content padding="true" >
+
+		<div class="list card item-text-wrap slideRight">
+			<div class="item">
+			    <label class="item item-icon-left">
+			      <i class="icon ion-person"></i>
+			      {{prof.name}}
+			    </label> 
+
+			    <label class="item item-icon-left">
+			      <i class="icon ion-calendar"></i>
+			      {{prof.dob}}
+			    </label> 
+
+			    <label class="item item-icon-left">
+			      <i class="icon ion-iphone"></i>
+			      {{prof.mobile}}
+			      
+			    </label> 
+
+			    <label class="item item-text-wrap item-icon-left item-icon-right">
+			      <i class="icon ion-email"></i>
+			      {{prof.email}}
+			      <button class="button button-clear button-assertive icon ion-edit" ng-click="changeemail()"></button>
+			      </label>
+
+			      			
+			</div>
+		</div>
+
+		<button class="item button button-block icon icon-right bar-assertive ion-ios-locked-outline slideRight" ng-click="showPassModal()" style="color:white;">Change Password
+			</button>
+
+			
+        
+               
+
+	</ion-content>
+</ion-view>

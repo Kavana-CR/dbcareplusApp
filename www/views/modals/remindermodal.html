@@ -1,0 +1,84 @@
+ <ion-modal-view class="pane" cache="false">
+        <ion-header-bar class="bar bar-header bar-custom-reminders">
+          <h1 class="title" style="color:white;">Configure Reminders</h1>
+          <button class="button button-clear " ng-click="reminderModal.hide()" style="color:white;">Close</button>
+        </ion-header-bar>
+        <ion-content class="padding" >
+
+         <div class="list card  item-text-wrap">
+
+ <div class="item item-divider item-avatar" style="background: #642d8d;">
+    <img src="img/alarm.png">
+    <h2 style="color:white;">Reminders</h2>
+    <p style="color:white;"> Get Reminded For Breakfast, Lunch &amp; Dinner</p>
+    </div>
+
+    <li class="item item-toggle">
+     Set Alarms
+     <label class="toggle toggle-royal">
+       <input type="checkbox" ng-model="alarmToggle.value" ng-change="showCard()">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+     </label>
+     </li> 
+
+     
+     <!-- Edit Alarms -->
+     <div class="item-divider" ng-show="editAlarmsIcon" style="width:auto;height:10px;" ng-click="showAlarmsCard()">
+     <center><p class="floating"><i class="icon positive ion-ios-arrow-down" style="font-size:20px;"></i></p></center>
+     </div>
+     
+     <div class="item"  ng-show="showAlarms">
+     <form name="reminderForm">
+     
+     <div class="item item-avatar"> 
+     <img src="img/morning.png">
+     <label class="item-input">
+     <span class="input-label">Breakfast</span>
+     <input type="time" ng-model="breakfastTime" class="padding" required="yes">
+     </label>
+     </div>
+    
+    <div class="item item-avatar"> 
+    <img src="img/lunch.png">
+    <label class="item-input">
+    <span class="input-label">Lunch</span>
+    <input type="time" ng-model="lunchTime" class="padding" required="yes">
+    </label>
+    </div>
+    
+    <div class="item item-avatar"> 
+    <img src="img/dinner.png">
+    <label class="item-input">
+    <span class="input-label">Dinner</span>
+    <input type="time" ng-model="dinnerTime" class="padding" required="yes">
+    </label>
+    </div>
+
+     <ion-checkbox ng-model="repeatChoice.value">Repeat Everyday?</ion-checkbox>
+     </form>
+    <button class="button button-block" style="background: #642d8d;color:white;" ng-disabled="reminderForm.$invalid" ng-click="addNotification(breakfastTime, lunchTime, dinnerTime)">Set Reminders</button>
+    
+
+
+    </div>
+
+
+    <li class="item item-toggle">
+     Get notified to log blood sugar after eating?
+     <label class="toggle toggle-royal">
+       <input type="checkbox" ng-model="alarmBlood.value" ng-change="showBloodLogNotifyCard()">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+     </label>
+     </li>
+
+     <div class="item" ng-show="bloodLogNotify"> 
+    <p> <h2 class="positive">You will be notified to check for your blood sugar levels after 2 hours of having breakfast, lunch and dinner</h2></p>
+    </div>
+    
+</div>
+        </ion-content>
+      </ion-modal-view>

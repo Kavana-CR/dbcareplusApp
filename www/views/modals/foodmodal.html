@@ -1,0 +1,28 @@
+<ion-modal-view class="pane">
+	<ion-header-bar class="bar-custom-foodChart">
+		<h1 class="title" style="color:white;">{{foodModalTitle}} </h1>
+		<button class="button button-clear button-primary" ng-click="modal.hide()" style="color:white;">
+			Done
+		</button>
+	</ion-header-bar>
+
+	<ion-content class="padding">
+		<div class="list card">
+			<div class="row item item-divider">
+			<div class="col item-text-wrap">Food Type</div>
+			<div class="col item-text-wrap">g/ml</div>
+			<div class="col item-text-wrap">Portion</div>
+			<div class="col item-text-wrap assertive" style="text-align:center;">KHE (Approx.)</div>
+			<div class="col item-text-wrap">kcal</div>
+		</div>
+
+		<div class="row item" ng-click="openPopover($event,'{{food.Name}}','{{food.Quantity}}','{{food.Portion}}','{{food.KHE}}','{{food.KCal}}')" ng-repeat="food in foodSubCategory">
+			<div class="col item-text-wrap">{{food.Name}}</div>
+			<div class="col item-text-wrap">{{food.Quantity}}</div>
+			<div class="col item-text-wrap">{{food.Portion}}</div>
+			<div class="col item-text-wrap assertive" style="text-align:center;">{{food.KHE}}</div>
+			<div class="col item-text-wrap">{{food.KCal}}</div>
+		</div>
+	</ion-content>
+</ion-modal-view>
+    

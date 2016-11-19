@@ -1,0 +1,41 @@
+<ion-view title="Blood Sugar" ng-init="retrieveBlood()">
+<ion-nav-buttons side="right">
+      <button class="button button-clear button-light icon ion-plus-round" style="color:white;" ng-click="newBlood()">
+        </button>
+    </ion-nav-buttons>
+
+<ion-content padding="true">
+
+<div class ="list card" ng-show="starter" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);">
+
+ <div class="item item-avatar">
+    <img src="img/icon.png">
+    <h2>Diabetes Care Plus</h2>
+    <p>Blood Sugar Log</p>
+  </div>
+  <div class="item item-thumbnail-left item-text-wrap">
+    <img src="img/bloodsugar.png">
+    <h2>
+      Hey it looks like you don't have any entries yet.<br>
+      Click the + sign on the top right corner to make one.
+    </h2>
+    </div>
+
+</div>
+
+
+<div class="list card" ng-show="display" ng-repeat="b in blood | orderBy:'-date'"" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);">
+
+    <div class="item item-divider item-avatar"  ng-click="editblood(b,b.$id)">
+      <img src="img/bloodsugar.png">
+      <h2>{{b.value}} mg/dl</h2>
+      <p>{{b.notes}}</p>
+      <p>Logged on <b>{{b.date}}</b> at <b>{{b.time}}</b></p>
+      
+      </div>
+</div>
+
+
+
+</ion-content>
+</ion-view>

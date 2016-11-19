@@ -1,0 +1,30 @@
+<ion-view title="Food Cart">
+  <ion-header-bar class="bar-custom-foodChart">
+     <h1 class="title" style="color:white;">Food Cart Total KHE = {{totalKHE}}</h1>
+     <button class="button button-clear button-primary" ng-click="foodCart.hide()" style="color:white;">Close</button>
+   </ion-header-bar>
+	<ion-content padding="true" class="bg-img">
+		<div class="list card">
+			<div class="row item item-divider">
+			<div class="col item-text-wrap">Food Type</div>
+			<div class="col item-text-wrap">g/ml</div>
+			<div class="col item-text-wrap">Portion</div>
+			<div class="col item-text-wrap assertive" style="text-align:center;">KHE (Approx.)</div>
+			<div class="col item-text-wrap">kcal</div>
+			<div class="col item-text-wrap">edit</div>
+		</div>
+	
+		<div class="row item" ng-repeat="food in cartElements">
+			<div class="col item-text-wrap">{{food.Name}}</div>
+			<div class="col item-text-wrap">{{food.Quantity}}</div>
+			<div class="col item-text-wrap">{{food.Portion}}</div>
+			<div class="col item-text-wrap assertive" style="text-align:center;">{{food.KHE}}</div>
+			<div class="col item-text-wrap">{{food.KCal}}</div>
+			<div class="col item-text-wrap">
+			<div class="button icon ion-plus" ng-click="addFood({{food}})"></div>
+			<br><br>
+			<div class="button icon ion-minus" ng-click="removeFood({{food}})"></div>
+			</div>
+		</div>
+	</ion-content>
+<ion-view>

@@ -1,0 +1,33 @@
+<ion-view view-title="Graph Report" class="wrapper">
+<ion-nav-bar class="bar-custom-graph"  >
+            <ion-nav-back-button style="color:white;"></ion-nav-back-button>
+            <ion-nav-buttons side="right">
+		      <button class="button button-clear button-light icon ion-share" style="color:white;" ng-click="show()">Share</button>
+		    </ion-nav-buttons>
+    </ion-nav-bar>
+<ion-content scroll="false" class="has-header" >
+	<div class="bar-header item" style="overflow:auto;">
+        
+            <canvas style='min-width:{{dynamicWidth}};height:200px;' id="line" class="chart chart-line" chart-data="data" chart-labels="labels" chart-legend="true" chart-series="series" chart-datasetLabel="test" colours="col" chart-options="options" datasets="dataSet" pointRadius="10"></canvas>
+ 			<br><br><canvas style="display:block" id="lineHidden" class="chart chart-line" chart-data="data" chart-labels="labels" chart-legend="true" chart-series="series" chart-click="showBS" chart-datasetLabel="test" colours="col" chart-options="options" datasets="dataSet" pointRadius="10"></canvas>
+               
+    </div>
+</ion-content>
+<ion-content scroll="false">
+
+
+<div style="margin-top:250px !important;">
+<ion-list>
+  <ion-item style="background-color:{{color}};white-space:normal;color:white;">
+   <span ><b>Estimated HB1AC</b><br> {{hb1ac}}   
+  	</span>
+  </ion-item>
+  <ion-item>
+  Note: Atleast 21 bloodsugar values over the <br>period of 7 days are required for an accurate <br>HBA1C
+  </ion-item>
+</ion-list>
+
+</div>	
+
+</ion-content>
+</ion-view>

@@ -1,0 +1,34 @@
+<ion-view title="Login" hide-nav-bar="true">
+	<ion-content class="viewBg" padding="true">
+
+		<form class="list" name="loginForm">
+			<label class="item item-input loginLabel slideRight" ng-class="{ 'has-error' : loginForm.email.$invalid }">
+				<i class="loginIcon icon ion-ios-email-outline placeholder-icon icon-left"></i>
+				<input class="loginInput" type="email" ng-model="creds.email" name="email" placeholder="johnsmith@example.com" required="yes" ng-click="hideErr()"></input>
+			</label>
+			<label class="item item-input loginLabel slideLeft" ng-class="{ 'has-error' : loginForm.password.$invalid }">
+				<i class="icon ion-ios-locked-outline placeholder-icon icon-left loginIcon"></i>
+				<input class="loginInput" type="password" ng-model="creds.password" placeholder="password" required="yes" ng-click="hideErr()"></input>
+			</label>
+			<p class="item item-text-wrap" style="color:red; font-weight: 500;" ng-show="loginError">{{loginErrorMessage}}</p>
+		</form>
+
+		<a class="button button-block button-dark fadeIn" ng-disabled="!creds.email || !creds.password" ng-click="login(creds)">Login</a>
+
+		<center><a class="button button-clear button-light button-block expandOpen" ng-click="forgot.show()">Forgot password?</a></center>
+
+		<div id="links">
+			<center><span id="loginSpan">______________________________________</span></center><br>
+			<center><a class="button button-clear button-light button-block expandOpen" ui-sref='signup'>New Here? Sign Up</a></center>
+		</div>
+
+		<div id="linksFBandG">
+			<center>
+				<a class="button button-dark float-button fadeIn" href="" ng-click="loginWithFB()"><i class="icon ion-social-facebook"></i></a>
+				<a class="button button-dark float-button fadeIn" href="" ng-click="loginWithGoogle()"><i class="icon ion-social-google"></i></a>	
+			</center>
+			
+		</div>
+
+	</ion-content>
+</ion-view>

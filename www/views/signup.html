@@ -1,0 +1,24 @@
+<ion-view title="Sign Up" hide-back-button="false">
+	<ion-content id="signupView" padding="true">
+		<form class="list" name="signupForm">
+			
+			<label class="item item-input signupLabel slideRight" ng-class="{ 'has-error' : signupForm.email.$invalid }" ng-click="hideErr()">
+				<i class="icon ion-ios-email-outline placeholder-icon icon-left signupIcon"></i>
+				<input class="signupInput" type="email" name="email" ng-model="creds.email" placeholder="Enter Email Address" required="yes"></input>
+			</label>
+			<p class="item" ng-show="signupForm.email.$invalid">Enter A Valid Email.</p>
+
+			<label class="item item-input signupLabel slideRight" ng-class="{ 'has-error' : signupForm.password.$invalid }">
+				<i class="icon ion-ios-locked-outline placeholder-icon icon-left signupIcon"></i>
+				<input class="signupInput" type="password" name="password" ng-model="creds.password" ng-minlength="6" placeholder="Enter Password" required="yes"></input>
+			</label>
+			<p class="item" ng-show="signupForm.password.$error.minlength">Min. Password length is 6 characters</p>
+
+			    
+		</form>
+
+		<a class="button button-block button-dark fadeIn" ng-disabled="!creds.email || !creds.password" ng-click="signup(creds)">Register</a>
+	</ion-content>
+</ion-view
+
+		
