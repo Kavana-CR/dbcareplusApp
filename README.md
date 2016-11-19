@@ -43,7 +43,7 @@ Ionic Framework (Install Ionic using npm -> npm install ionic –g or just npm i
 Android Device running Android 4.0 and above <br> </p>
 <p> <h3> How to run the App? </h3>
 Run the following command to serve the app onto the web browser: <br>
-$>DBcare+> ionic serve --lab or ionic serve -l <br>
+$>DBcare+> ionic serve --lab or ionic serve -l <br><br>
 You can also view the app on the following website:<br>
 http://www.dbcareplus.site <br><br>
 <b>You will be limited to only those features which are compatible on the web browser.<br>
