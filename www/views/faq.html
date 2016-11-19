@@ -1,0 +1,122 @@
+<ion-view view-title="Frequently Asked Questions" hide-back-button="false">
+<ion-nav-buttons side="right">
+<i class="button button-clear icon ion-ios-help-outline"></i>
+</ion-nav-buttons>
+<ion-content padding="true">
+
+
+<ion-list>
+        
+          <ion-item class="item-dark item-icon-right pullDown" ng-click="toggleGroup1(group1)" ng-class="{active: isGroupShown1(group1)}">
+              <i class="icon" ng-class="isGroupShown1(group1) ? 'ion-android-arrow-dropdown' : 'ion-android-arrow-dropright'"></i>
+            &nbsp;
+            How to add blood sugar?
+          </ion-item>
+          <ion-item class="item" ng-show="isGroupShown1(group1)">
+          
+            <ul style="white-space: normal; list-style-type: disc; padding: 10px;">
+              <li>In the home page, tap on “Log Blood Sugar”.</li>
+              <li>Tap on the “+” icon present at the top right corner.</li>
+              <li>Enter all the details and tap on “Add Blood Sugar” button.</li>
+              <li>View all your entries in the “Blood Sugar” screen.</li>
+            </ul>
+          
+          </ion-item>
+        
+        <ion-item class="item-assertive item-icon-right pullDown" ng-click="toggleGroup2(group2)" ng-class="{active: isGroupShown2(group2)}">
+              <i class="icon" ng-class="isGroupShown2(group2) ? 'ion-android-arrow-dropdown' : 'ion-android-arrow-dropright'"></i>
+            &nbsp;
+            How to add reminders?
+          </ion-item>
+          <ion-item class="item" ng-show="isGroupShown2(group2)">
+            <ul style="white-space: normal; list-style-type: disc; padding: 10px;">
+              <li>In the home page, tap on “Reminders”.</li>
+              <li>Tap on the “+” icon present at the top right corner.</li>
+              <li>Enter all the details and tap on “Set Reminder” button.</li>
+              <li>View all your entries in the “Set Reminder” screen.</li>
+            </ul>
+          </ion-item>
+
+          <ion-item class="item-dark item-icon-right pullDown" ng-click="toggleGroup3(group3)" ng-class="{active: isGroupShown3(group3)}">
+              <i class="icon" ng-class="isGroupShown3(group3) ? 'ion-android-arrow-dropdown' : 'ion-android-arrow-dropright'"></i>
+            &nbsp;
+            How to use food chart?
+          </ion-item>
+          <ion-item class="item" ng-show="isGroupShown3(group3)">
+            <ul style="white-space: normal; list-style-type: disc; padding: 10px;">
+              <li>In the home page, tap on “Food &amp; Beverages”.</li>
+              <li>Select a food category (For ex. Milk And Milk Products) and then select a food type and tap on “Add” button in the “Add to Food Cart” pop up.</li>
+              <li>Add 1 or more “Food Types” to the cart from one or more food categories and the Tap on “Done” present at the top right corner.</li>
+              <li>Tap on the “Food Cart” icon at the bottom of the Food &amp; Beverage” screen to view the total KHE values of the selected food types. With this KHE value you can calculate your required insulin dosage.</li>
+            </ul>
+          </ion-item>
+
+          <ion-item class="item-assertive item-icon-right pullDown" ng-click="toggleGroup4(group4)" ng-class="{active: isGroupShown4(group4)}">
+              <i class="icon" ng-class="isGroupShown4(group4) ? 'ion-android-arrow-dropdown' : 'ion-android-arrow-dropright'"></i>
+            &nbsp;
+            How to generate report?
+          </ion-item>
+          <ion-item class="item" ng-show="isGroupShown4(group4)">
+            <ul style="white-space: normal; list-style-type: disc; padding: 10px;">
+              <li>In the home page, tap on “Progress Report” which leads to “Graph Report” screen.</li>
+              <li>Tap on “Generate Report” button in order to view the Graph report.</li>
+              <li>Tap on the “Share” at the top right corner to save the report as “PDF” or to send it via email.</li>
+            </ul>
+          </ion-item>
+
+          <ion-item class="item-dark item-icon-right pullDown" ng-click="toggleGroup5(group5)" ng-class="{active: isGroupShown5(group5)}">
+              <i class="icon" ng-class="isGroupShown5(group5) ? 'ion-android-arrow-dropdown' : 'ion-android-arrow-dropright'"></i>
+            &nbsp;
+            How to change password?
+          </ion-item>
+          <ion-item class="item" ng-show="isGroupShown5(group5)">
+            <ul style="white-space: normal; list-style-type: disc; padding: 10px;">
+              <li>In the home page, invoke the side menu bar present at the top left corner by taping on it.</li>
+              <li>In the Side Menu, tap on “Settings” and then tap on “Profile”.</li>
+              <li>Tap on the “Change Password” button, enter the details and tap on “Confirm” button. Your password is now successfully changed and you will be redirected to the login screen. Login with your new password.</li>
+            </ul>
+          </ion-item>
+
+          <ion-item class="item-assertive item-icon-right pullDown" ng-click="toggleGroup6(group6)" ng-class="{active: isGroupShown6(group6)}">
+              <i class="icon" ng-class="isGroupShown6(group6) ? 'ion-android-arrow-dropdown' : 'ion-android-arrow-dropright'"></i>
+            &nbsp;
+            How to edit blood sugar and reminders?
+          </ion-item>
+          <ion-item class="item" ng-show="isGroupShown6(group6)">
+            <ul style="white-space: normal; list-style-type: disc; padding: 10px;">
+              <li>In the home page, tap on “Log Blood Sugar” or "Reminders" which leads to the respective screens.</li>
+              <li>Next, tap on any one of the existing records and update the details.</li>
+              <li>Tap on "Save Blood Sugar" or "Save Reminder" button to save the changes.</li>
+            </ul>
+          </ion-item>
+
+          <ion-item class="item-dark item-icon-right pullDown" ng-click="toggleGroup7(group7)" ng-class="{active: isGroupShown7(group7)}">
+              <i class="icon" ng-class="isGroupShown7(group7) ? 'ion-android-arrow-dropdown' : 'ion-android-arrow-dropright'"></i>
+            &nbsp;
+            How to edit profile?
+          </ion-item>
+          <ion-item class="item" ng-show="isGroupShown7(group7)">
+            <ul style="white-space: normal; list-style-type: disc; padding: 10px;">
+              <li>In the home page, invoke the side menu bar present at the top left corner by taping on it.</li>
+              <li>In the Side Menu, tap on “Settings” and then tap on “Profile”.</li>
+              <li>Tap on “Edit Profile” icon on the top right corner and enter the new details and tap on “Done” button.</li>
+            </ul>
+          </ion-item>
+
+          <ion-item class="item-assertive item-icon-right pullDown" ng-click="toggleGroup8(group8)" ng-class="{active: isGroupShown8(group8)}">
+              <i class="icon" ng-class="isGroupShown8(group8) ? 'ion-android-arrow-dropdown' : 'ion-android-arrow-dropright'"></i>
+            &nbsp;
+            How to change email id to login?
+          </ion-item>
+          <ion-item class="item" ng-show="isGroupShown8(group8)">
+            <ul style="white-space: normal; list-style-type: disc; padding: 10px;">
+              <li>In the home page, invoke the side menu bar present at the top left corner by taping on it.</li>
+              <li>In the Side Menu, tap on “Settings” and then tap on “Profile”.</li>
+              <li>Tap on the edit icon next to the email, and enter your new email id and "Current Password" in the "Change Login Email" pop up and tap on "Update" button.</li>
+              <li>You will be redirected to the login page to login with your new email id.</li>
+            </ul>
+          </ion-item>
+      </ion-list>
+
+</ion-content>
+</ion-view>

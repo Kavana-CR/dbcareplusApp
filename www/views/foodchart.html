@@ -1,0 +1,32 @@
+<!-- controller: FoodCtrl Controller file :FoodController.js -->
+<ion-view title="Food &amp; Beverage">
+  <ion-nav-bar class="bar-custom-foodChart"  >
+            <ion-nav-back-button style="color:white;"></ion-nav-back-button>
+  </ion-nav-bar>
+
+<ion-content padding="true" class="bg-img">
+
+	<div class="list card" >
+	   <a class="item item-avatar" ng-click="populateFood('{{foodCat}}')" ng-repeat="(foodCat,food) in foodCategory">
+	     <img src="img/{{foodCat}}.png">
+	     <h2>{{foodCat}}</h2>
+	     <p>{{food[0].Name}},{{food[1].Name}},{{food[2].Name}}</p>      
+	   </a>
+	</div>
+
+</ion-content>
+
+<ion-footer-bar align-title="left" class="bar-custom-foodChart" ng-click="populateFoodCart()">
+  <h1 class="title" style="color:white !important;"> You Have Added {{Items}} Items</h1>
+  <div class="buttons">
+    <button class="button button-clear button-large button-light icon ion-bag" style="font-size: 80px;"></button>
+  </div>
+</ion-footer-bar>
+
+</ion-view>
+
+
+
+
+
+       

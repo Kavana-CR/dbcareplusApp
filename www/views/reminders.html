@@ -1,0 +1,98 @@
+<ion-view title="Reminders" hide-back-button="false" ng-init="getRem()">
+<ion-nav-bar class="bar-custom-reminders"  >
+            <ion-nav-back-button style="color:white;"></ion-nav-back-button>
+
+</ion-nav-bar>
+<ion-content padding="true" class="padding">
+
+<div class="list card item-text-wrap" ng-repeat = "s in Settings">
+
+<div class="item item-divider item-avatar" style="background: #642d8d;">
+    <img src="img/alarm.png">
+    <h2 style="color:white;">Reminders</h2>
+    <p style="color:white;"> Get Reminded For Breakfast, Lunch &amp; Dinner</p>
+    </div>
+    <div class="item item-icon-right" ng-click="settingsOfReminders(s)">
+    Configure Reminder Settings <i class = "icon ion-android-options" style="color:#642d8d;"></i> 
+</div>
+</div>
+
+<!-- Show Template If No Reminders Are Set -->
+<div class="list card item-text-wrap" ng-show = "showEmptyCards">
+<div class="item item-avatar" style="background-color: #11c1f3; border-color: #0a9dc7;">
+    <img src="img/morning.png">
+    <h2 style="color:white;">Breakfast</h2>
+    <p style="color:white;"> Reminders for Brekfast is turned off</p>
+    </div>
+</div>
+
+<div class="list card item-text-wrap" ng-show = "showEmptyCards">    
+<div class="item item-avatar" style="border-color: #e6b500; background-color: #ffc900;">
+    <img src="img/lunch.png">
+    <h2 style="color:white;">Lunch</h2>
+    <p style="color:white;"> Reminders for Lunch is turned off</p>
+    </div>
+</div>
+
+<div class="list card item-text-wrap" ng-show = "showEmptyCards">    
+<div class="item item-avatar" style="border-color: #111; background-color: #242f24;">
+    <img src="img/dinner.png">
+    <h2 style="color:white;">Dinner</h2>
+    <p style="color:white;"> Reminders for Dinner is turned off</p>
+    </div>
+</div>
+
+
+<!-- Show Reminders If Set Once-->
+<div class="list card item-text-wrap" ng-show = "showReminderCards">
+<div class="item item-avatar" style="background-color: #11c1f3; border-color: #0a9dc7;">
+    <img src="img/morning.png">
+    <h2 style="color:white;">Breakfast</h2>
+    <p style="color:white;"> Reminders for Brekfast is scheduled at {{Settings.Settings.breakfastTime}}</p>
+    </div>
+</div>
+
+<div class="list card item-text-wrap" ng-show = "showReminderCards">    
+<div class="item item-avatar" style="border-color: #e6b500; background-color: #ffc900;">
+    <img src="img/lunch.png">
+    <h2 style="color:white;">Lunch</h2>
+    <p style="color:white;"> Reminders for Lunch is scheduled at {{Settings.Settings.lunchTime}}</p>
+    </div>
+</div>
+
+<div class="list card item-text-wrap" ng-show = "showReminderCards">    
+<div class="item item-avatar" style="border-color: #111; background-color: #242f24;">
+    <img src="img/dinner.png">
+    <h2 style="color:white;">Dinner</h2>
+    <p style="color:white;"> Reminders for Dinner is scheduled at {{Settings.Settings.dinnerTime}}</p>
+    </div>
+</div>
+
+<!-- Show Reminders If Repeat On-->
+<div class="list card item-text-wrap" ng-show = "showReminderRepeatCards">
+<div class="item item-avatar" style="background-color: #11c1f3; border-color: #0a9dc7;">
+    <img src="img/morning.png">
+    <h2 style="color:white;">Breakfast</h2>
+    <p style="color:white;"> Reminders for Brekfast is scheduled at {{Settings.Settings.breakfastTime}} everyday</p>
+    </div>
+</div>
+
+<div class="list card item-text-wrap" ng-show = "showReminderRepeatCards">    
+<div class="item item-avatar" style="border-color: #e6b500; background-color: #ffc900;">
+    <img src="img/lunch.png">
+    <h2 style="color:white;">Lunch</h2>
+    <p style="color:white;"> Reminders for Lunch is scheduled at {{Settings.Settings.lunchTime}} everyday</p>
+    </div>
+</div>
+
+<div class="list card item-text-wrap" ng-show = "showReminderRepeatCards">    
+<div class="item item-avatar" style="border-color: #111; background-color: #242f24;">
+    <img src="img/dinner.png">
+    <h2 style="color:white;">Dinner</h2>
+    <p style="color:white;"> Reminders for Dinner is scheduled at {{Settings.Settings.dinnerTime}} everyday</p>
+    </div>
+</div>
+
+
+</ion-content>
+</ion-view>

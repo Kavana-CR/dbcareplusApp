@@ -1,0 +1,41 @@
+<ion-view title="Home" ng-init="getName()">
+<ion-nav-buttons side="right">
+<button class = "button button-clear button-small" ui-sref="menu.profile"> Hi {{prof.name}} </button>
+</ion-nav-buttons>
+
+	<ion-content padding="true">
+
+		<div class="list card custom-listA cardShadow" >
+			<a class="item item-thumbnail-left item-text-wrap listA" ui-sref='menu.foodchart'>
+				<img src="img/food.png">
+				<center><h2 style="font-weight: 700; font-size: 20px;">Food &amp; Beverages</h2>
+				<p style="font-size: 15px;">Food listings for calculating insulin dosage.</p></center>
+
+			</a>
+		</div>
+		<div class="list card custom-listB cardShadow">
+			<a class="item item-thumbnail-left item-text-wrap listB" ui-sref='menu.bloodsugar'>
+				<img src="img/bloodsugar.png">
+				<center><h2 style="font-weight: 700; font-size: 20px;">Log Blood Sugar</h2>
+				<p style="font-size: 15px;">Keep track of your Blood Sugar Levels...</p></center>
+			</a>
+		</div>
+		<div class="list card custom-listC cardShadow" >
+			<a class="item item-thumbnail-left item-text-wrap listC" ui-sref='menu.reminders'>
+				<img src="img/clock.png">
+				<center><h2 style="font-weight: 700; font-size: 20px;">Reminders</h2>
+				<p style="font-size: 15px;">Set Reminders to follow your routine</p></center>
+			</a>
+		</div>
+		<div class="list card custom-listD cardShadow" >
+			<a class="item item-thumbnail-left item-text-wrap listD" ui-sref='menu.graphreport'>
+				<img src="img/graph.png">
+				<center><h2 style="font-weight: 700; font-size: 20px;">Progress Report</h2>
+				<p style="font-size: 15px;">Generate Progress Report (3months HBA1C)</p></center>
+			</a>
+		</div>
+
+	</ion-content>
+</ion-view>
+
+

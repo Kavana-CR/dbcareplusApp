@@ -1,0 +1,32 @@
+<ion-view title="Some Personal Info" align-title="center" class="light" hide-back-button="false">
+<ion-nav-bar class="bar-assertive">
+</ion-nav-bar>
+
+<ion-content class="tourView">
+<div class="list card cardShadow" style="padding-top:60px">
+
+  <div class = "item item-body">
+  		
+                 <form name="profileForm">
+                   <label class="item-input">
+                      <span class="input-label">Phone No.</span>
+                      <input type="number" ng-model = "tel" placeholder="Handy Nummer" required="yes">
+                    </label>
+                  <label class="item-input">
+                    <span class="input-label item-text-wrap">Date Of Birth</span>
+                      <input type="date" name="bday" ng-model="dob" placeholder="dd/mm/yyyy" min="1930-01-01" max="2001-01-01" required="yes"><br><br>
+                   </label>
+                   </form>
+
+                  <button class="button button-block button-dark" ng-disabled="profileForm.$invalid" ng-click="addPersonalDat(tel,dob)">Create Profile</button>
+                  </div>
+
+                 <div class="item item-body">
+                 <p class="assertive"> <b>**Providing us with your name and date of birth will help us to personalize your progress reports (HBA1C).</b>
+                 </p>
+                 </div>
+
+              </div>
+
+         </ion-content>
+         </ion-view>

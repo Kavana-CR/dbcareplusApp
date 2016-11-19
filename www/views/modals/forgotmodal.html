@@ -1,0 +1,33 @@
+            <ion-modal-view class="viewBg" cache="false">
+                <ion-header-bar class="bar bar-header bar-dark item-icon-left">
+                <i class="icon ion-ios-locked-outline"></i>
+                    <h1 class="title">Forgot Password</h1>
+                    <button class="button button-clear button-primary" ng-click="forgot.hide()">Cancel</button>
+                </ion-header-bar>
+
+                <ion-content class="padding">
+                    <div class="list card">
+<div class="item item-divider">
+  Reset Password
+</div>
+
+  <p class ="item item-icon-right"><i class="icon ion-ios-email-outline"></i> Send Password By E-mail</p>
+  <div class= "item item-input-inset" style="border-top : none;">
+
+    <label class= "item-input-wrapper">
+      <input type="email" class="txtcolor" ng-model="forgotemail" placeholder="Your Registered Email" required="yes">
+    </label>
+    <button class="button button-dark button-small" ng-disabled="!forgotemail" ng-click="sendForgot(forgotemail)">
+     Submit
+    </button>
+  </div>
+
+</div>
+
+
+
+
+
+
+ </ion-content>
+ </ion-modal-view>

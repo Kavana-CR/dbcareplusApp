@@ -1,0 +1,16 @@
+<ion-popover-view>
+    <ion-header-bar class="bar-custom-foodChart">
+      <h1 class="title" style="color:white;">Add to Food Cart?</h1>
+    </ion-header-bar>
+    <ion-content scroll="false" padding="true" >
+      <div class="list">
+      <div class="item item-divider item-text-wrap">
+      Do you wish to add this to your food cart?
+      </div>
+      <div class="item">
+      <button class="button button-block button-dark icon icon-right ion-checkmark" ng-click="addToCart()">Add</button>
+      <button class="button button-block bar-assertive icon icon-right ion-close" ng-click="closePopover()" style="color:white;">Cancel</button>
+      </div>
+      </div>
+    </ion-content>
+  </ion-popover-view>

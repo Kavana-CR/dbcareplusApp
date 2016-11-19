@@ -1,0 +1,1285 @@
+{
+
+	"category":{
+		"Milk and Milk Products":[
+			{"Name":"Buttermilk Nature, max 1% fat",
+			 "Quantity":"200 ml",
+			 "Portion":"1 Glass",
+			 "KHE":"1",
+			 "KCal":"70"},
+
+			{"Name":"Thick Milk Nature, 0.3% fat",
+			 "Quantity":"200 g",
+			 "Portion":"1 Glass","KHE":"1","KCal":"70"},
+
+			{"Name":"Thick Milk Nature, 3.5% fat",
+			 "Quantity":"200 ml","Portion":"1 Glass","KHE":"1","KCal":"130"},
+
+			{"Name":"Joghurt Nature, 0,3 % Fett",
+			 "Quantity":"150 g",
+			 "Portion":"1 Cup",
+			 "KHE":"0.5",
+			 "KCal":"60"},
+
+		    {"Name":"Joghurt Nature, 1.5% fat",
+		     "Quantity":"150 g",
+		     "Portion":"1 Cup",
+		     "KHE":"0.5",
+		     "KCal":"70"},
+
+			{"Name":"Joghurt Nature, 3.5% fat",
+			 "Quantity":"150 g",
+			 "Portion":"1 Cup",
+			 "KHE":"0.5","KCal":"100"},
+
+
+			{"Name":"Kefir, 1.5% fat",
+			 "Quantity":"150 g",
+			 "Portion":"1 Small Glass",
+			 "KHE":"0.5",
+			 "KCal":"60"},
+
+			 {"Name":"Kefir, 3.5% fat",
+			 "Quantity":"125 g",
+			 "Portion":"1 Small Glass",
+			 "KHE":"0.5",
+			 "KCal":"85"},
+
+			 {"Name":"Milk, 0.3% fat",
+			 "Quantity":"200 ml",
+			 "Portion":"1 Glass",
+			 "KHE":"1",
+			 "KCal":"70"},
+
+			 {"Name":"Milk, 1.5% fat",
+			 "Quantity":"200 ml",
+			 "Portion":"1 Glass",
+			 "KHE":"1",
+			 "KCal":"95"},
+
+			 {"Name":"Milk, 3.5% fat",
+			 "Quantity":"200 ml",
+			 "Portion":"1 Glass",
+			 "KHE":"1",
+			 "KCal":"130"},
+
+			 
+			 {"Name":"Cream yogurt with fruit",
+			 "Quantity":"150 g",
+			 "Portion":"1 Cup",
+			 "KHE":"2",
+			 "KCal":"210"}
+
+            ],
+
+
+		"Bread and bakery products":[
+		{"Name":"Wheat Bread",
+		 "Quantity":"45 g",
+		 "Portion":"1 Slice,",
+		 "KHE":"2",
+		 "KCal":"110"},
+
+		 {"Name":"Croissant",
+		 "Quantity":"45 g",
+		 "Portion":"1 Piece,",
+		 "KHE":"2",
+		 "KCal":"230"},
+
+
+		 {"Name":"Brown Bread(rye bread)",
+		 "Quantity":"45 g",
+		 "Portion":"1 disc,",
+		 "KHE":"2",
+		 "KCal":"95"},
+
+		 {"Name":"Crisp Bread",
+		 "Quantity":"10 g",
+		 "Portion":"1 disc,",
+		 "KHE":"0.5",
+		 "KCal":"35"},
+
+		 {"Name":"Pumpernickel",
+		 "Quantity":"40 g",
+		 "Portion":"1 disc,",
+		 "KHE":"1.5",
+		 "KCal":"75"},
+
+		 {"Name":"Ryebread",
+		 "Quantity":"50 g",
+		 "Portion":"1 disc,",
+		 "KHE":"2",
+		 "KCal":"95"},
+
+		 {"Name":"Toast, wheat",
+		 "Quantity":"45 g",
+		 "Portion":"1 disc,",
+		 "KHE":"2",
+		 "KCal":"100"},
+
+		 {"Name":"Rusks, wholemeal",
+		 "Quantity":"10 g",
+		 "Portion":"1 Piece,",
+		 "KHE":"0.5",
+		 "KCal":"35"}			
+		],	
+
+
+		"Cereals , flours and pasta":[
+			{"Name":"Amaranth",
+			 "Quantity":"15 g",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"1",
+			 "KCal":"55"},
+
+
+			{"Name":"Buck wheat",
+			 "Quantity":"15 g",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"1",
+			 "KCal":"50"},
+
+			{"Name":"Cornflakes",
+			 "Quantity":"30 g",
+			 "Portion":"8 EL, slightly heaped",
+			 "KHE":"2.5",
+			 "KCal":"105"},
+
+			{"Name":"Pearl barley",
+			 "Quantity":"15 g",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"1",
+			 "KCal":"50"},
+
+			{"Name":"Styes",
+			 "Quantity":"20 g",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"1.5",
+			 "KCal":"65"},
+
+			 {"Name":"Green Corn",
+			 "Quantity":"20 g",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"1.5",
+			 "KCal":"65"},
+
+			 {"Name":"Oatmeal, wholegrain",
+			 "Quantity":"1 EL, slightly heaped",
+			 "Portion":"10 g",
+			 "KHE":"0.5",
+			 "KCal":"35"},
+
+			 {"Name":"Millet",
+			 "Quantity":"1 EL, slightly heaped",
+			 "Portion":"15 g",
+			 "KHE":"1",
+			 "KCal":"50"},
+
+			 {"Name":"Cornmeal",
+			 "Quantity":"1 EL, slightly heaped",
+			 "Portion":"15 g",
+			 "KHE":"1",
+			 "KCal":"55"},
+
+			 {"Name":"Breadcrumbs",
+			 "Quantity":"10 g",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"0.5",
+			 "KCal":"35"},
+
+			 {"Name":"Quinoa",
+			 "Quantity":"50 g",
+			 "Portion":"1 Portion",
+			 "KHE":"3",
+			 "KCal":"170"},
+
+
+			 {"Name":"Rice, peeled, cooked",
+			 "Quantity":"180 g",
+			 "Portion":"1 Portion",
+			 "KHE":"3.5",
+			 "KCal":"165"},
+
+			 {"Name":"Rice, peeled, raw",
+			 "Quantity":"40 g",
+			 "Portion":"1 Portion",
+			 "KHE":"3",
+			 "KCal":"140"},
+
+			 {"Name":"Rye grains",
+			 "Quantity":"20 g",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"1",
+			 "KCal":"60"},
+
+			 {"Name":"Rye flour",
+			 "Quantity":"15 g",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"1",
+			 "KCal":"45"},
+
+			 {"Name":"Pasta, noodles (egg-free, boiled)",
+			 "Quantity":"150 g",
+			 "Portion":"1 Portion",
+			 "KHE":"4.5",
+			 "KCal":"225"},
+
+			 {"Name":"Pasta, noodles (egg-free, raw)",
+			 "Quantity":"50 g",
+			 "Portion":"1 Portion",
+			 "KHE":"3.5",
+			 "KCal":"175"},
+
+			 {"Name":"Pasta, noodles (eihaltig, cooked)",
+			 "Quantity":"150 g",
+			 "Portion":"1 Portion",
+			 "KHE":"3.5",
+			 "KCal":"190"},
+
+			 {"Name":"Pasta, noodles (eihaltig, raw)",
+			 "Quantity":"50 g",
+			 "Portion":"1 Portion",
+			 "KHE":"3.5",
+			 "KCal":"175"},
+
+			 {"Name":"Wheat semolina",
+			 "Quantity":"15 g",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"1",
+			 "KCal":"50"},
+
+			 {"Name":"Wheat grains",
+			 "Quantity":"20 g",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"1",
+			 "KCal":"65"},
+
+			 {"Name":"Whole wheat flour",
+			 "Quantity":"15 g",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"1",
+			 "KCal":"45"},
+
+			 {"Name":"Wild rice, raw",
+			 "Quantity":"15 g",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"1",
+			 "KCal":"55"}
+			 ],
+
+
+			 "Starch derivatives":[
+			 {"Name":"Potato starch",
+			 "Quantity":"15 g",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"1",
+			 "KCal":"50"},
+
+			 {"Name":"Cornstarch",
+			 "Quantity":"15",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"1.5",
+			 "KCal":"55"},
+
+			 {"Name":"Rice starch",
+			 "Quantity":"15 g",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"1.5",
+			 "KCal":"50"},
+
+			 {"Name":"Sago/Tapioka",
+			 "Quantity":"15 g",
+			 "Portion":"1 EL, slightly heaped",
+			 "KHE":"1",
+			 "KCal":"50"}
+			 ],
+
+			
+			 "Potatoes and potato products":[
+			 {"Name":"Unpeeled potatoes cooked",
+			 "Quantity":"240 g",
+			 "Portion":"2-3 Pieces",
+			 "KHE":"3",
+			 "KCal":"140"},
+
+			 {"Name":"Potato dumplings, Maggi(Half & half, boil in the bag)",
+			 "Quantity":"130 g",
+			 "Portion":"1 Dumpling",
+			 "KHE":"2.5",
+			 "KCal":"90"},
+
+			 {"Name":"Mashed potatoes with cooked Maggi",
+			 "Quantity":"200 g",
+			 "Portion":"1 Portion",
+			 "KHE":"2.5",
+			 "KCal":"130"},
+
+			 {"Name":"Potato pancakes(cooked)",
+			 "Quantity":"180 g",
+			 "Portion":"1 Serving (about 3 pieces)",
+			 "KHE":"4",
+			 "KCal":"205"},
+
+			 {"Name":"Croquettes(fried)",
+			 "Quantity":"150 g",
+			 "Portion":"1 Serving (7–8 pieces)",
+			 "KHE":"3.5",
+			 "KCal":"280"},
+
+			 {"Name":"French fries(fried)",
+			 "Quantity":"150 g",
+			 "Portion":"1 Portion",
+			 "KHE":"5.5",
+			 "KCal":"435"},
+
+			 {"Name":"",
+			 "Quantity":"",
+			 "Portion":"",
+			 "KHE":"",
+			 "KCal":""}
+			 ],
+
+			 "Fruits and fruit juices":[
+
+			 {"Name":"Pineapple",
+			 "Quantity":"125 g",
+			 "Portion":"1 Portion",
+			 "KHE":"1.5",
+			 "KCal":"75"},
+
+			 {"Name":"Apple, medium size",
+			 "Quantity":"125 g",
+			 "Portion":"1 Piece",
+			 "KHE":"1.5",
+			 "KCal":"65"},
+
+			 {"Name":"Apple, medium size",
+			 "Quantity":"150 g",
+			 "Portion":"1 Piece",
+			 "KHE":"2",
+			 "KCal":"80"},
+
+			 {"Name":"Orange, medium size",
+			 "Quantity":"125 g",
+			 "Portion":"1 Piece",
+			 "KHE":"1",
+			 "KCal":"60"},
+
+			 {"Name":"Orange, medium size",
+			 "Quantity":"150 g",
+			 "Portion":"1 Piece",
+			 "KHE":"1.5",
+			 "KCal":"70"},
+
+			 {"Name":"Apricot",
+			 "Quantity":"50",
+			 "Portion":"1 Piece",
+			 "KHE":"0.5",
+			 "KCal":"20"},
+
+			 {"Name":"Banana(medium size)",
+			 "Quantity":"100 g",
+			 "Portion":"1 Piece",
+			 "KHE":"2",
+			 "KCal":"95"},
+
+			 {"Name":"Banana(medium size)",
+			 "Quantity":"150 g",
+			 "Portion":"1 Piece",
+			 "KHE":"3",
+			 "KCal":"145"},
+
+			 {"Name":"Pear(medium size)",
+			 "Quantity":"140 g",
+			 "Portion":"1 Piece",
+			 "KHE":"1.5",
+			 "KCal":"75"},
+
+			 {"Name":"Blackberries",
+			 "Quantity":"125 g",
+			 "Portion":"1 Portion",
+			 "KHE":"0.540",
+			 "KCal":"40"},
+
+			 {"Name":"Strawberries",
+			 "Quantity":"250 g",
+			 "Portion":"1 Portion",
+			 "KHE":"1.5",
+			 "KCal":"80"},
+
+			 {"Name":"Figs",
+			 "Quantity":"40 g",
+			 "Portion":"2 Pieces",
+			 "KHE":"0.5",
+			 "KCal":"25"},
+
+			 {"Name":"Pomegranate(small)",
+			 "Quantity":"125 g",
+			 "Portion":"1 Piece",
+			 "KHE":"2",
+			 "KCal":"100"},
+
+			 {"Name":"Guavas",
+			 "Quantity":"125 g",
+			 "Portion":"1 Portion",
+			 "KHE":"1",
+			 "KCal":"50"},
+
+			 {"Name":"Bilberry",
+			 "Quantity":"125 g",
+			 "Portion":"1 Portion",
+			 "KHE":"1",
+			 "KCal":"55"},
+
+			 {"Name":"Raspberries",
+			 "Quantity":"125 g",
+			 "Portion":"1 Portion",
+			 "KHE":"0.5",
+			 "KCal":"45"},
+
+			 {"Name":"Elderberries",
+			 "Quantity":"125 g",
+			 "Portion":"1 Portion",
+			 "KHE":"1",
+			 "KCal":"60"},
+
+			 {"Name":"Cantaloupe, muskmelon",
+			 "Quantity":"150 g",
+			 "Portion":"1 Portion",
+			 "KHE":"2",
+			 "KCal":"80"},
+
+			 {"Name":"Red currants",
+			 "Quantity":"125 g",
+			 "Portion":"1 Portion",
+			 "KHE":"1",
+			 "KCal":"55"},
+
+			 {"Name":"Kaki(medium size)",
+			 "Quantity":"125",
+			 "Portion":"1 Portion",
+			 "KHE":"2",
+			 "KCal":"95"},
+
+			 {"Name":"Sweet cherries",
+			 "Quantity":"120 g",
+			 "Portion":"1 Portion",
+			 "KHE":"1.5",
+			 "KCal":"75"},
+
+			 {"Name":"Kiwi",
+			 "Quantity":"45 g",
+			 "Portion":"1 Piece",
+			 "KHE":"0.5",
+			 "KCal":"25"},
+
+			 {"Name":"Kumquats",
+			 "Quantity":"125 g",
+			 "Portion":"1 Portion",
+			 "KHE":"2",
+			 "KCal":"85"},
+
+			 {"Name":"Lichi",
+			 "Quantity":"125 g",
+			 "Portion":"1 Portion(about 5 pieces)",
+			 "KHE":"2",
+			 "KCal":"95"},
+
+			 {"Name":"Tangerines",
+			 "Quantity":"40 g",
+			 "Portion":"1 Piece",
+			 "KHE":"0.5",
+			 "KCal":"20"},
+
+			 {"Name":"Mango",
+			 "Quantity":"125 g",
+			 "Portion":"1/2 fruit",
+			 "KHE":"1.5",
+			 "KCal":"75"},
+
+			 {"Name":"Mirabelle",
+			 "Quantity":"125 g",
+			 "Portion":"1 Portion",
+			 "KHE":"2",
+			 "KCal":"80"},
+
+			 {"Name":"Opuntia(prickly pear), medium",
+			 "Quantity":"100 g",
+			 "Portion":"1 Piece",
+			 "KHE":"0.5",
+			 "KCal":"40"},
+
+			 {"Name":" Grapefruit",
+			 "Quantity":"125 g",
+			 "Portion":"1/2 fruit",
+			 "KHE":"1",
+			 "KCal":"65"},
+
+			 {"Name":"Peach / nectarine, medium size",
+			 "Quantity":"115 g",
+			 "Portion":"1 Piece",
+			 "KHE":"1",
+			 "KCal":"45"},
+
+			 {"Name":"Plums",
+			 "Quantity":"125 g",
+			 "Portion":"1 Portion (3–4 Pieces)",
+			 "KHE":"1.5",
+			 "KCal":"60"},
+
+			 {"Name":"Cranberries",
+			 "Quantity":"125 g",
+			 "Portion":"1 Portion",
+			 "KHE":"1",
+			 "KCal":"50"},
+
+			 {"Name":"Quince, medium size",
+			 "Quantity":"150 g",
+			 "Portion":"1 Piece",
+			 "KHE":"1",
+			 "KCal":"60"},
+
+			 {"Name":"Gooseberries",
+			 "Quantity":"125 g",
+			 "Portion":"1 Portion",
+			 "KHE":"1",
+			 "KCal":"55"},
+
+			 {"Name":"Watermelon",
+			 "Quantity":"150 g",
+			 "Portion":"1 Portion",
+			 "KHE":"1",
+			 "KCal":"55"},
+
+			 {"Name":"Grapes",
+			 "Quantity":"125 g",
+			 "Portion":"1 Portion",
+			 "KHE":"2",
+			 "KCal":"90"},
+
+			 {"Name":"Apple juice",
+			 "Quantity":"200 ml",
+			 "Portion":"1 Glass",
+			 "KHE":"2",
+			 "KCal":"100"},
+
+			 {"Name":"Orange juice",
+			 "Quantity":"200 ml",
+			 "Portion":"1 Glass",
+			 "KHE":"2",
+			 "KCal":"90"},
+
+			 {"Name":"Grape juice",
+			 "Quantity":"200 ml",
+			 "Portion":"1 Glass",
+			 "KHE":"3",
+			 "KCal":"130"}
+
+			 ],
+
+			 "Dry fruits":[
+			 {"Name":"Apple",
+			 "Quantity":"25 g",
+			 "Portion":"1 Portion",
+			 "KHE":"1.5",
+			 "KCal":"70"},
+
+			 {"Name":"Apricots",
+			 "Quantity":"25 g",
+			 "Portion":"1 Portion (2–3 Pieces)",
+			 "KHE":"1.5",
+			 "KCal":"60"},
+
+			 {"Name":"Bananas",
+			 "Quantity":"25 g",
+			 "Portion":"1 Portion",
+			 "KHE":"1.5",
+			 "KCal":"75"},
+
+			 {"Name":"Dates",
+			 "Quantity":"25 g",
+			 "Portion":"1 Portion (3–4 Pieces)",
+			 "KHE":"1.5",
+			 "KCal":"70"},
+
+			 {"Name":"Figs",
+			 "Quantity":"25 g",
+			 "Portion":"1 Piece",
+			 "KHE":"1.5",
+			 "KCal":"70"},
+
+			 {"Name":"Plums",
+			 "Quantity":"25 g",
+			 "Portion":"1 Portion(4 Pieces)",
+			 "KHE":"1.5",
+			 "KCal":"65"},
+
+			 {"Name":"Raisins",
+			 "Quantity":"25 g",
+			 "Portion":"1 serving (3-4 go. TL)",
+			 "KHE":"1.5",
+			 "KCal":"65"}
+			 ],
+
+			 "Vegetables":[
+
+			 {"Name":"Cooked green peas",
+			 "Quantity":"150 g",
+			 "Portion":"1 Portion",
+			 "KHE":"2",
+			 "KCal":"125"},
+
+			 {"Name":"Canned corn",
+			 "Quantity":"150 g",
+			 "Portion":"1 Portion",
+			 "KHE":"1.5",
+			 "KCal":"85"}
+
+			 ],
+
+			 "Legumes":[
+
+			 {"Name":"Dry white beans",
+			 "Quantity":"60 g",
+			 "Portion":"1 Portion",
+			 "KHE":"2",
+			 "KCal":"145"},
+
+			 {"Name":"Dry peas",
+			 "Quantity":"60 g",
+			 "Portion":"1 Portion",
+			 "KHE":"3.5",
+			 "KCal":"210"},
+
+			 {"Name":"Lentils, dry",
+			 "Quantity":"60 g",
+			 "Portion":"1 Portion",
+			 "KHE":"3",
+			 "KCal":"190"}
+			 ],
+
+			 "Nuts":[
+			 
+			 {"Name":"Cashew nuts, fresh",
+			 "Quantity":"60 g",
+			 "Portion":"1 Portion",
+			 "KHE":"2",
+			 "KCal":"340"},
+
+			 {"Name":"Hazelnuts",
+			 "Quantity":"60 g",
+			 "Portion":"1 Portion",
+			 "KHE":"0.5",
+			 "KCal":"380"},
+
+			 {"Name":"Fresh chestnuts",
+			 "Quantity":"60 g",
+			 "Portion":"1 Portion",
+			 "KHE":"2",
+			 "KCal":"105"},
+
+			 {"Name":"Pistachios",
+			 "Quantity":"60 g",
+			 "Portion":"1 Portion",
+			 "KHE":"0.5",
+			 "KCal":"345"},
+
+			 {"Name":"Walnuts",
+			 "Quantity":"60 g",
+			 "Portion":"1 Portion",
+			 "KHE":"0.5",
+			 "KCal":"390"}
+			 ],
+
+
+
+
+		"Pies and tarts (containing sugar)":[
+			{"Name": "Apple Pie (batter)",
+			"Quantity":"100 g",
+			"Portion":"1 Piece",
+			"KHE":"3",
+			"KCal":"215"
+			},
+			{"Name": "Apple strudel",
+			"Quantity":"150 g",
+			"Portion":"1 Piece",
+			"KHE":"4",
+			"KCal":"250"
+			},
+			{"Name": "Bee Sting (dough)",
+			"Quantity":"100 g",
+			"Portion":"1 Piece",
+			"KHE":"3.5",
+			"KCal":"300"
+			},
+			{"Name": "Sponge roll with strawberry cream",
+			"Quantity":"60 g",
+			"Portion":"1 Piece",
+			"KHE":"1.5",
+			"KCal":"130"
+			},
+			{"Name": "Butter cream Tart",
+			"Quantity":"100 g",
+			"Portion":"1 Piece",
+			"KHE":"3",
+			"KCal":"315"
+			},
+			{"Name": "Butter cake (dough)",
+			"Quantity":"100 g",
+			"Portion":"1 Piece",
+			"KHE":"4.5",
+			"KCal":"375"
+			},
+			{"Name": "Christmas cake",
+			"Quantity":"100 g",
+			"Portion":"1 Piece",
+			"KHE":"4.5",
+			"KCal":"410"
+			},
+			{"Name": "Sheet cake",
+			"Quantity":"100 g",
+			"Portion":"1 Piece",
+			"KHE":"3.5",
+			"KCal":"395"
+			},
+			{"Name": "Easy Braided bread/Crumpet",
+			"Quantity":"100 g",
+			"Portion":"1 Piece",
+			"KHE":"4.5",
+			"KCal":"300"
+			},
+			{"Name": "Cheesecake (shortcrust)",
+			"Quantity":"100 g",
+			"Portion":"1 Piece",
+			"KHE":"3",
+			"KCal":"275"
+			},
+			{"Name": "Marble cake (sponge)",
+			"Quantity":"70 g",
+			"Portion":"1 Piece",
+			"KHE":"3",
+			"KCal":"275"
+			},
+			{"Name": "Pound cake (sponge)",
+			"Quantity":"70 g",
+			"Portion":"1 Piece",
+			"KHE":"3.5",
+			"KCal":"255"
+			},
+			{"Name": "Nut cake",
+			"Quantity":"50 g",
+			"Portion":"1 Piece",
+			"KHE":"1.5",
+			"KCal":"230"
+			},
+			{"Name": "Fruitcake",
+			"Quantity":"150 g",
+			"Portion":"1 Piece",
+			"KHE":"5",
+			"KCal":"345"
+			},
+			{"Name": "Sponge cake",
+			"Quantity":"70 g",
+			"Portion":"1 Piece",
+			"KHE":"3",
+			"KCal":"300"
+			},
+			{"Name": "Biscuit cake",
+			"Quantity":"70 g",
+			"Portion":"1 Piece",
+			"KHE":"3",
+			"KCal":"305"
+			},
+			{"Name": "Chocolate cream pie",
+			"Quantity":"120 g",
+			"Portion":"1 Piece",
+			"KHE":"3",
+			"KCal":"365"
+			},
+			{"Name": "Black Forest cake",
+			"Quantity":"120 g",
+			"Portion":"1 Piece",
+			"KHE":"2.5",
+			"KCal":"295"
+			},
+			{"Name": "Crumble cake",
+			"Quantity":"100 g",
+			"Portion":"1 Piece",
+			"KHE":"5.5",
+			"KCal":"375"
+			}
+		],
+
+		"Spreads":[
+			{"Name":"Honey",
+			"Quantity":"20 g",
+			"Portion":"1 Portion",
+			"KHE":"1.5",
+			"KCal":"60"},
+
+			{"Name":"Strawberry jam",
+			"Quantity":"25 g",
+			"Portion":"1 Portion",
+			"KHE":"1.5",
+			"KCal":"65"},
+
+			{"Name":"Nut cream",
+			"Quantity":"20 g",
+			"Portion":"1 Portion",
+			"KHE":"1",
+			"KCal":"105"}
+		],
+
+
+
+		"Biscuits":[
+			{"Name":"American biscuits",
+			"Quantity":"100 g",
+			"Portion":"1 Piece",
+			"KHE":"6.5",
+			"KCal":"320"},
+			
+			{"Name":"Apple pie, McDonald's",
+			"Quantity":"80 g",
+			"Portion":"1 Piece",
+			"KHE":"2.5",
+			"KCal":"210"},
+
+			{"Name":"Donuts",
+			"Quantity":"60 g",
+			"Portion":"1 Piece",
+			"KHE":"1.5",
+			"KCal":"215"},
+
+			{"Name":"Shortbread",
+			"Quantity":"25 g",
+			"Portion":"5 Pieces",
+			"KHE":"1.5",
+			"KCal":"120"},
+
+			{"Name":"Granola bar",
+			"Quantity":"25 g",
+			"Portion":"1 Bar",
+			"KHE":"1",
+			"KCal":"95"},
+
+			{"Name":"Nut biscuits",
+			"Quantity":"10 g",
+			"Portion":"1 Piece",
+			"KHE":"0.5",
+			"KCal":"45"}	
+		],
+
+		"Snacks":[
+			{"Name":"Peanuts, roasted, salted",
+			"Quantity":"60 g",
+			"Portion":"1 Portion",
+			"KHE":"0.5",
+			"KCal":"340"},
+
+			{"Name":"Potato chips",
+			"Quantity":"25 g",
+			"Portion":"1 Portion",
+			"KHE":"1",
+			"KCal":"135"},
+
+			{"Name":"Cracker",
+			"Quantity":"25 g",
+			"Portion":"5 Pieces",
+			"KHE":"2",
+			"KCal":"95"},
+
+			{"Name":"Pretzel sticks",
+			"Quantity":"30 g",
+			"Portion":"Approx. 20 Pieces",
+			"KHE":"2.5",
+			"KCal":"105"},
+
+			{"Name":"Nuts & Raisins",
+			"Quantity":"25 g",
+			"Portion":"1 Portion",
+			"KHE":"1",
+			"KCal":"110"}
+		],
+
+		"Confectionaries":[
+			{"Name":"After Eight",
+			"Quantity":"8 g",
+			"Portion":"1 Piece",
+			"KHE":"0.5",
+			"KCal":"35"},
+			
+			{"Name":"Duplo ",
+			"Quantity":"18 g",
+			"Portion":"1 Bar",
+			"KHE":"1",
+			"KCal":"95"},
+
+			{"Name":"Hanuta",
+			"Quantity":"22 g",
+			"Portion":"1 Piece",
+			"KHE":"1",
+			"KCal":"115"},
+
+			{"Name":"Haribo Gold Bears, Gummi bears",
+			"Quantity":"8 g",
+			"Portion":"4 Pieces",
+			"KHE":"0.5",
+			"KCal":"25"},
+
+			{"Name":"KitKat",
+			"Quantity":"45 g",
+			"Portion":"1 Piece",
+			"KHE":"2.5",
+			"KCal":"230"},
+
+			{"Name":"Mars",
+			"Quantity":"54 g",
+			"Portion":"1 Bar",
+			"KHE":"4",
+			"KCal":"245"},
+
+			{"Name":"Marzipan",
+			"Quantity":"75 g",
+			"Portion":"1 Portion",
+			"KHE":"5",
+			"KCal":"345"},
+
+			{"Name":"Raffaello",
+			"Quantity":"20 g",
+			"Portion":"2 Pieces",
+			"KHE":"1",
+			"KCal":"125"},
+
+			{"Name":"Rocher",
+			"Quantity":"25 g",
+			"Portion":"2 Pieces",
+			"KHE":"1",
+			"KCal":"145"},
+
+			{"Name":"Schokokuss",
+			"Quantity":"20 g",
+			"Portion":"1 Piece",
+			"KHE":"1.5",
+			"KCal":"90"},
+
+			{"Name":"Snickers",
+			"Quantity":"60 g",
+			"Portion":"1 Bar",
+			"KHE":"3.5",
+			"KCal":"305"},
+
+			{"Name":"Milk nut chocolate",
+			"Quantity":"100 g",
+			"Portion":"1 Piece",
+			"KHE":"4.5",
+			"KCal":"590"},
+
+			{"Name":"Milk chocolate",
+			"Quantity":"100 g",
+			"Portion":"",
+			"KHE":"5.5",
+			"KCal":"535"},
+
+			{"Name":"Sugar, white",
+			"Quantity":"8 g",
+			"Portion":"",
+			"KHE":"1",
+			"KCal":"30"}
+		],
+
+		"Ice cream":[
+		{"Name":"Sherbet",
+		 "Quantity":"75 g",
+		 "Portion":"1 Portion",
+		 "KHE":"2",
+		 "KCal":"100"},
+
+		 {"Name":"Dairy ice cream",
+		 "Quantity":"75 g",
+		 "Portion":"1-2 rolls",
+		 "KHE":"1",
+		 "KCal":"65"},
+
+		 {"Name":"Cornetto Bottermelk-Zitrone",
+		 "Quantity":"90 g",
+		 "Portion":"1 Piece",
+		 "KHE":"3",
+		 "KCal":"205"},
+
+		 {"Name":"Cornetto strawberry",
+		 "Quantity":"92 g",
+		 "Portion":"1 Piece",
+		 "KHE":"3.5",
+		 "KCal":"230"},
+
+		 {"Name":"Cornetto Haselnut",
+		 "Quantity":"82 g",
+		 "Portion":"1 Piece",
+		 "KHE":"2",
+		 "KCal":"210"},
+
+		 {"Name":"Domino",
+		 "Quantity":"51 g",
+		 "Portion":"1 Piece",
+		 "KHE":"1",
+		 "KCal":"110"},
+
+		 {"Name":"Magnum Classic",
+		 "Quantity":"94 g",
+		 "Portion":"1 Piece",
+		 "KHE":"2.5",
+		 "KCal":"280"},
+
+		 {"Name":"Mini Milk Vanille",
+		 "Quantity":"26 g",
+		 "Portion":"1 Piece",
+		 "KHE":"0.5",
+		 "KCal":"45"},
+
+		 {"Name":"McSundae without waffle",
+		 "Quantity":"96 g",
+		 "Portion":"1 Portion",
+		 "KHE":"2.5",
+		 "KCal":"155"},
+
+		 {"Name":"McSundae caramel sauce",
+		 "Quantity":"153 g",
+		 "Portion":"1 Portion",
+		 "KHE":"5.5",
+		 "KCal":"305"},
+
+		 {"Name":"McSundae chocolate sauce",
+		 "Quantity":"150 g",
+		 "Portion":"1 Portion",
+		 "KHE":"4.5",
+		 "KCal":"280"},
+
+		 {"Name":"Caretta Orange",
+		 "Quantity":"60 g",
+		 "Portion":"1 Piece",
+		 "KHE":"1.5",
+		 "KCal":"60"},
+
+		 {"Name":"Macao Mandel",
+		 "Quantity":"81 g",
+		 "Portion":"1 Piece",
+		 "KHE":"2.5",
+		 "KCal":"290"},
+
+		 {"Name":"Macao Vanilla",
+		 "Quantity":"78 g",
+		 "Portion":"1 Piece",
+		 "KHE":"2.5",
+		 "KCal":"255"},
+
+		 {"Name":"Nucki nut",
+		 "Quantity":"71 g",
+		 "Portion":"1 Piece",
+		 "KHE":"2.5",
+		 "KCal":"250"}
+
+   ],
+
+		"Fast Food":[
+			{"Name":"Big King, Burger King",
+			"Quantity":"209 g",
+			"Portion":"1 Portion",
+			"KHE":"3",
+			"KCal":"585"},
+
+			{"Name":"Big Mac, McDonald's",
+			"Quantity":"212 g",
+			"Portion":"1 Piece",
+			"KHE":"4",
+			"KCal":"475"},
+
+			{"Name":"Cheeseburger",
+			"Quantity":"150 g",
+			"Portion":"1 Portion",
+			"KHE":"3",
+			"KCal":"340"},
+
+			{"Name":"Cheeseburger, McDonald's",
+			"Quantity":"117 g",
+			"Portion":"1 Piece",
+			"KHE":"3",
+			"KCal":"295"},
+
+			{"Name":"Chicken McNuggets , without sauce , McDonald's",
+			"Quantity":"99 g",
+			"Portion":"6 Pieces",
+			"KHE":"1.5",
+			"KCal":"235"},
+
+			{"Name":"Chicken Nugget Burger, Burger King",
+			"Quantity":"133 g",
+			"Portion":"1 Portion",
+			"KHE":"3.5",
+			"KCal":"375"},
+
+			{"Name":"Dinkel-Burger , Alnatura",
+			"Quantity":"100 g",
+			"Portion":"1 Portion",
+			"KHE":"5.5",
+			"KCal":"325"},
+
+			{"Name":"Hamburger",
+			"Quantity":"150 g",
+			"Portion":"1 Portion",
+			"KHE":"4",
+			"KCal":"350"},
+
+			{"Name":"Hamburger, McDonald's",
+			"Quantity":"103 g",
+			"Portion":"1 Piece",
+			"KHE":"3",
+			"KCal":"245"},
+
+			{"Name":"Hamburger Royal, McDonald's",
+			"Quantity":"205 g",
+			"Portion":"1 Piece",
+			"KHE":"3.5",
+			"KCal":"505"},
+
+			{"Name":"McCroissant, McDonald's",
+			"Quantity":"94 g",
+			"Portion":"1 Piece",
+			"KHE":"2.5",
+			"KCal":"285"},
+
+			{"Name":"McRib, McDonald",
+			"Quantity":"209 g",
+			"Portion":"1 Piece",
+			"KHE":"5",
+			"KCal":"470"}
+		],
+
+		"Frozen and Ready meals":[
+			{"Name":"Garlic bread, frozen food",
+			"Quantity":"85 g",
+			"Portion":"1 Portion",
+			"KHE":"3",
+			"KCal":"290"},
+
+			{"Name":"Lasagne Bolognese, frozen food",
+			"Quantity":"400 g",
+			"Portion":"1 Portion",
+			"KHE":"6.5",
+			"KCal":"625"},
+
+			{"Name":"Pizza Salami, Dr. Oetker",
+			"Quantity":"380 g",
+			"Portion":"1 Portion",
+			"KHE":"10.5",
+			"KCal":"875"},
+
+			{"Name":"Pizza Four Cheese, Dr. Oetker",
+			"Quantity":"395 g",
+			"Portion":"1 Portion",
+			"KHE":"11",
+			"KCal":"890"},
+
+			{"Name":"Ravioli in tomato sauce, Maggi",
+			"Quantity":"400 g",
+			"Portion":"1 Portion",
+			"KHE":"6",
+			"KCal":"330"}
+
+		],
+
+		"Non-alcoholic drinks":[
+			{"Name":"Banana/strawberry/vanilla Trunk",
+			"Quantity":"250 ml",
+			"Portion":"1 Portion",
+			"KHE":"3.5",
+			"KCal":"205"},
+
+			{"Name":"Coca-Cola",
+			"Quantity":"330 ml",
+			"Portion":"1 small Bottle",
+			"KHE":"3.5",
+			"KCal":"140"},
+
+			{"Name":"Fanta",
+			"Quantity":"200 ml",
+			"Portion":"1 Glass",
+			"KHE":"2",
+			"KCal":"80"},
+
+			{"Name":"Cocoa drink, 1.5% fat",
+			"Quantity":"250 ml",
+			"Portion":"1 Portion",
+			"KHE":"2",
+			"KCal":"150"},
+
+			{"Name":"Milkshake with strawberry, McDonald's",
+			"Quantity":"240 g",
+			"Portion":"1 Portion",
+			"KHE":"4.5",
+			"KCal":"290"},
+
+			{"Name":"Milkshake with vanilla, McDonald's",
+			"Quantity":"240 g",
+			"Portion":"1 Portion",
+			"KHE":"4.5",
+			"KCal":"295"}
+		],
+
+
+		"Alcoholic beverages":[
+			{"Name":"Liqueur",
+			"Quantity":"20 ml",
+			"Portion":"1 small Glass",
+			"KHE":"0.5",
+			"KCal":"50"},
+
+			{"Name":"Pils",
+			"Quantity":"200 ml",
+			"Portion":"1 Glass",
+			"KHE":"0.5",
+			"KCal":"85"},
+
+			{"Name":"Red wine, light",
+			"Quantity":"200 ml",
+			"Portion":"1 Glass",
+			"KHE":"0.5",
+			"KCal":"130"},
+
+			{"Name":"Red wine, heavy",
+			"Quantity":"200 ml",
+			"Portion":"1 Glass",
+			"KHE":"0.5",
+			"KCal":"155"},
+
+			{"Name":"Sparkling wine",
+			"Quantity":"200 ml",
+			"Portion":"1 Glass",
+			"KHE":"0.5",
+			"KCal":"160"},
+
+			{"Name":"White wine, sweet",
+			"Quantity":"200 ml",
+			"Portion":"1 Glass",
+			"KHE":"1",
+			"KCal":"195"},
+
+			{"Name":"Dry white wine",
+			"Quantity":"200 ml",
+			"Portion":"1 Glass",
+			"KHE":"0",
+			"KCal":"145"},
+
+			{"Name":"Wheat beer",
+			"Quantity":"500 ml",
+			"Portion":"1 large Glass",
+			"KHE":"1.5",
+			"KCal":"190"}
+		]
+
+	
+
+		 }
+}
+

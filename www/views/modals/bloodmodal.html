@@ -1,0 +1,30 @@
+<ion-modal-view class="pane">
+     <ion-header-bar class="bar bar-header bar-dark">
+       <h1 class="title">New Blood Sugar</h1>
+       <button class="button button-clear button-primary" ng-click="bloodsugar.hide()">Cancel</button>
+     </ion-header-bar>
+     <ion-content class="padding">
+       <form name="bloodForm" >
+       <div class="list card">
+         <label class="item item-input item-stacked-label">
+           <span class="input-label">Blood Sugar Value (mg/dl)</span>
+           <input type="number" ng-model="nblood.value" placeholder="Ex: 150" required="yes" ng-minlength="2">
+         </label>
+         <label class="item item-input item-stacked-label">
+           <span class="input-label">Date</span>
+           <input type="date" ng-model="nblood.inputdate" required="yes">
+         </label>
+         <label class="item item-input item-stacked-label">
+           <span class="input-label">Time</span>
+           <input type="time" ng-model="nblood.inputtime" required="yes">
+         </label>
+         <label class="item item-input item-stacked-label">
+           <span class="input-label">Note</span>
+           <input type="text"  ng-model="nblood.notes" placeholder="Ex: Before Lunch" required="yes">
+         </label>
+         </div>
+        </form>
+       <button class="button button-block button-dark" ng-disabled="bloodForm.$invalid" ng-click="pushBlood(nblood)">Add Blood Sugar</button>
+     </ion-content>
+   </ion-modal-view>
+ 

@@ -1,0 +1,19 @@
+<ion-tabs class="tabs-icon-top tabs-balanced">  
+
+<ion-tab title="Back" icon="ion-ios-arrow-left" ui-sref="menu.demos">
+    
+  </ion-tab>
+
+  <ion-tab title="Graph" icon-on="ion-ios-pulse-strong" icon-off="ion-ios-pulse" ui-sref='graphDemoTabs.graphTab'>
+    <ion-nav-view name="graphDemo"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="Generate Pdf" icon-on="ion-android-document" icon-off="ion-document" ui-sref='graphDemoTabs.pdfTab'>
+    <ion-nav-view name="pdfDemo"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="Send e-mail" icon-on="ion-ios-email" icon-off="ion-ios-email-outline" ui-sref='graphDemoTabs.emailTab'>
+    <ion-nav-view name="emailDemo"></ion-nav-view>
+  </ion-tab>
+
+</ion-tabs>
