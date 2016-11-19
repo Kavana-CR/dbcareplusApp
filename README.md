@@ -42,21 +42,20 @@ Node.js (Download and install Node.js from Download Node.JS) <br>
 Cordova (Install Cordova using npm -> npm install cordova –g or just npm install cordova) <br>
 Ionic Framework (Install Ionic using npm -> npm install ionic –g or just npm install ionic) <br>
 Android Device running Android 4.0 and above <br> </p>
-<p> <h3> How to run the App? </h3> <br>
+<p> <h3> How to run the App? </h3>
 Extract “App.rar” file to your workspace.<br>
 Open command prompt and cd into the “App” Directory of your work space.<br>
 (For ex in Windows: if C:\MyWorkSpace is your workspace then do cd MyWorkSpace\App ) <br>
 Run the command ionic serve --lab to serve the app onto the web browser. <br>
 <b>You will be limited to only those features which are compatible on the web browser.<br>
-(PLEASE NOTE : This Mobile Hybrid App will not run on the web browser with full functionality. The App must be installed on to a device to see its complete functionality) </b> </p> <br> 
+(PLEASE NOTE : This Mobile Hybrid App will not run on the web browser with full functionality. The App must be installed on to a device to see its complete functionality) </b> </p> 
 <p> Start using the App by Signing up. Tap on "New Here, Sign Up? to create a new account or Tap on "F" or "G" icon to Sign Up using Facebook or Gmail respectively. <br>
 The functionalities of "Reminders" and "Progress Report" features on the home screen, can only be seen on a device and not on the browser. <br>
 All the other features functionalities that can also be viewed on both browser and device are: "Food & Beverages", "Log BLood Sugar", on the Home page and in the Side Menu, the features, "See Demos", "Settings" and "Logout". <br>
 For any questions regarding app usage, navigate to Side Menu-> Settings-> FAQs. <br>
 <b> To install and run the App on android device: </b> <br>
 On your Android Phone you need to allow installation from unknown source. Transfer the APK file inside the APK-Android directory and install it from the phone or click on the following link to find the apk: <br>
-https://github.com/Kavana-CR/DBCarePlus-App-Development/tree/master/Apk%20-%20Android
-</p>
+https://github.com/Kavana-CR/DBCarePlus-App-Development/tree/master/Apk%20-%20Android </p>
 
 
 
