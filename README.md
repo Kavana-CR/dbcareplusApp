@@ -1,5 +1,5 @@
 <h2> DBCarePlus (Application Development) </h2>
-<p> Group size: 5 <br>
+<p> Group size: 5 <br><br>
 DBCare Plus is a health care management app that helps diabetics manage their condition better. 
 There are four main features - “Food and Beverages”, “Log Blood Sugar”, “Reminders” and “Progress Report”. </p> <br>
 <p> <b> Role 1: Assisted in coming up with the App Workflow. </b> <br>
