@@ -47,7 +47,7 @@ Once the installation of Node.js, Cordova and Ionic Framework is done, create a 
 $>ionic start DBCare+ blank <br>
 Then, download and extract the Source Code file onto your system by clicking on the following link
 https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/Source%20Code.rar <br>
-Next, copy the "www" folder from "Source Code" folder and replace it with the existing "www" folder in ionic project folder i.e DBCare+. <br>
+Next, copy the "www" folder from "Source Code" folder and replace it with the existing "www" folder in ionic project folder i.e DBCare+.
 Also copy the "resources" folder from "Source Code" folder and paste it in the same project folder i.e DBCare+. <br> <br>
 <b>You will be limited to only those features which are compatible on the web browser.<br>
 (PLEASE NOTE : This Mobile Hybrid App will not run on the web browser with full functionality. The App must be installed on to a device to see its complete functionality) </b> </p> 
