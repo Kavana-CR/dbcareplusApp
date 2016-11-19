@@ -45,10 +45,10 @@ Android Device running Android 4.0 and above <br> </p>
 <p> <h3> How to run the App? </h3>
 Once the installation of Node.js, Cordova and Ionic Framework is done, create a new project in ionic by running the following command:<br>
 $>ionic start DBCare+ blank <br>
-Then, download and extract the Source Code folder onto your system by clicking on the following link
+Then, download and extract the Source Code folder onto your system by clicking the following link
 https://github.com/Kavana-CR/DBCarePlus-App-Development/blob/master/Source%20Code.rar <br>
 Next, copy the "www" folder from "Source Code" folder and replace it with the existing "www" folder in ionic project folder i.e DBCare+.
-Also copy the "resources" folder from "Source Code" folder and paste it in the same project folder i.e DBCare+. <br>
+Also copy the "resources" folder from "Source Code" folder and paste it into the same project folder. <br>
 Run the following command to serve it to serve the app onto the web browser: <br>
 $>DBCare+> ionic serve --lab or ionic serve -l <br> <br>
 <b>You will be limited to only those features which are compatible on the web browser.<br>
