@@ -44,10 +44,6 @@ Android Device running Android 4.0 and above <br> </p>
 <p> <h3> How to run the App? </h3>
 Run the following command to serve the app onto the web browser: <br>
 $>DBcare+> ionic serve --lab or ionic serve -l <br><br>
-You can also view the app on the following website:<br>
-http://www.dbcareplus.site <br><br>
-<b>You will be limited to only those features which are compatible on the web browser.<br>
-(PLEASE NOTE : This Mobile Hybrid App will not run on the web browser with full functionality. The App must be installed on to a device to see its complete functionality) </b> </p> 
 <p> Start using the App by Signing up. Tap on "New Here, Sign Up? to create a new account or Tap on "F" or "G" icon to Sign Up using Facebook or Gmail respectively. <br>
 The functionalities of "Reminders" and "Progress Report" features on the home screen and the "Splash Screen" can only be seen on a device and not on the browser. <br>
 All the other features functionalities that can also be viewed on both browser and device are: "Food & Beverages", "Log BLood Sugar", on the Home page and in the Side Menu, the features, "See Demos", "Settings" and "Logout". For any questions regarding app usage, navigate to Side Menu-> Settings-> FAQs. <br> <br>
